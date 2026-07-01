@@ -1,0 +1,85 @@
+{
+  "vocabulary_version": 1,
+  "words": [
+    {
+      "id": "a1_hund",
+      "level": "A1",
+      "germanWord": "Hund",
+      "article": "der",
+      "translation": "dog",
+      "exampleSentence": "Der Hund ist sehr freundlich."
+    },
+    {
+      "id": "a1_katze",
+      "level": "A1",
+      "germanWord": "Katze",
+      "article": "die",
+      "translation": "cat",
+      "exampleSentence": "Die Katze schläft auf dem Sofa."
+    },
+    {
+      "id": "a1_haus",
+      "level": "A1",
+      "germanWord": "Haus",
+      "article": "das",
+      "translation": "house",
+      "exampleSentence": "Das Haus ist sehr groß."
+    },
+    {
+      "id": "a1_wasser",
+      "level": "A1",
+      "germanWord": "Wasser",
+      "article": "das",
+      "translation": "water",
+      "exampleSentence": "Ich trinke jeden Tag viel Wasser."
+    },
+    {
+      "id": "a1_brot",
+      "level": "A1",
+      "germanWord": "Brot",
+      "article": "das",
+      "translation": "bread",
+      "exampleSentence": "Ich esse Brot zum Frühstück."
+    },
+    {
+      "id": "a2_bahnhof",
+      "level": "A2",
+      "germanWord": "Bahnhof",
+      "article": "der",
+      "translation": "train station",
+      "exampleSentence": "Der Zug fährt vom Bahnhof ab."
+    },
+    {
+      "id": "a2_krankenhaus",
+      "level": "A2",
+      "germanWord": "Krankenhaus",
+      "article": "das",
+      "translation": "hospital",
+      "exampleSentence": "Das Krankenhaus ist in der Stadtmitte."
+    },
+    {
+      "id": "b1_erfahrung",
+      "level": "B1",
+      "germanWord": "Erfahrung",
+      "article": "die",
+      "translation": "experience",
+      "exampleSentence": "Ich habe viel Erfahrung in diesem Bereich."
+    },
+    {
+      "id": "b1_verantwortung",
+      "level": "B1",
+      "germanWord": "Verantwortung",
+      "article": "die",
+      "translation": "responsibility",
+      "exampleSentence": "Das ist eine große Verantwortung."
+    },
+    {
+      "id": "b2_beziehung",
+      "level": "B2",
+      "germanWord": "Beziehung",
+      "article": "die",
+      "translation": "relationship",
+      "exampleSentence": "Die Beziehung zwischen den Ländern ist gut."
+    }
+  ]
+}

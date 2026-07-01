@@ -1,0 +1,12 @@
+{
+  "name": "deutschlernen-firebase-tools",
+  "version": "1.0.0",
+  "description": "Firebase Admin CLI tools for DeutschLernen app",
+  "private": true,
+  "scripts": {
+    "upload": "node uploadVocabulary.js sample_vocab.json"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0"
+  }
+}

@@ -12,16 +12,18 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import counterReducer from './slices/counterSlice';
 import germanReducer from './slices/germanSlice';
+import vocabularyReducer from './slices/vocabularySlice';
 
 const rootReducer = combineReducers({
   counter: counterReducer,
   german: germanReducer,
+  vocabulary: vocabularyReducer,
 });
 
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  whitelist: ['german'], // persist only the german slice (progress, language, scores)
+  whitelist: ['german', 'vocabulary'], // persist german progress and offline vocabulary cache
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

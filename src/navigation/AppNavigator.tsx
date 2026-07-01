@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { theme } from '../constants/theme';
 import { RootState } from '../store/store';
 import OnboardingScreen from '../screens/OnboardingScreen';
-import DashboardScreen from '../screens/DashboardScreen';
+import BottomTabNavigator from '../navigation/BottomTabNavigator';
 import LessonScreen from '../screens/LessonScreen';
 import QuizScreen from '../screens/QuizScreen';
 
@@ -41,7 +41,7 @@ const AppNavigator: React.FC = () => {
       )}
       <Stack.Screen
         name="Dashboard"
-        component={DashboardScreen}
+        component={BottomTabNavigator}
         options={{ gestureEnabled: false }}
       />
       <Stack.Screen
