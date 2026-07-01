@@ -39,3 +39,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+#firebaseapikey
+/src/config/firebase.ts
