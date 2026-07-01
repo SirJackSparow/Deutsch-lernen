@@ -45,6 +45,7 @@ const DashboardScreen: React.FC = () => {
   const dispatch = useDispatch();
 
   const { language, completedLessons, quizScores } = useSelector(
+    
     (state: RootState) => state.german
   );
   const t = translations[language];
